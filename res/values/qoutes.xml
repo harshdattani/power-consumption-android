@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tile_text">
+    <item>TODAY’S WASTAGE IS TOMORROW’S SHORTAGE</item>
+    <item>Keep the future bright, Turn off the light.</item>
+    <item>Give the earth a hug, pull the plug.</item>
+    </string-array>
+</resources>

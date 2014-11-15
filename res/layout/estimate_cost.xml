@@ -1,0 +1,167 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E9E9E9"
+    android:scrollbarSize="15dp"
+    android:fadeScrollbars="false"
+     >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+           
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:text="Add Appliance Details and scroll to see total"
+                android:textColor="#151610" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Select Appliance"
+                android:textColor="#151610" />
+
+            <Spinner
+                android:id="@+id/appliance"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="2dp"
+                android:entries="@array/appliance_arrays"
+                android:prompt="@string/appliance_prompt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Select Quantity"
+                android:textColor="#151610" />
+
+            <Spinner
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="2dp"
+                android:entries="@array/number_arrays"
+                android:prompt="@string/number_prompt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Daily Usage (Hours/Day)"
+                android:textColor="#151610" />
+
+            <Spinner
+                android:id="@+id/hour"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="2dp"
+                android:entries="@array/hour_arrays"
+                android:prompt="@string/hour_prompt" />
+
+            <Button
+                android:id="@+id/estimatecost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_pink"
+                android:onClick="add_appliance"
+                android:padding="10dp"
+                android:text="Add Appliance" />
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_pink"
+                android:onClick="reset"
+                android:padding="10dp"
+                android:text="Reset" />
+           
+
+            <TextView
+                android:id="@+id/selection"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#151610" />
+
+            <TextView
+                android:id="@+id/output"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#151610" />
+
+            <TextView
+                android:id="@+id/output2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#151610" />
+
+            <TextView
+                android:id="@+id/output3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#151610" />
+
+            <TextView
+                android:id="@+id/output4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#151610" />
+
+            <TextView
+                android:id="@+id/output5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#151610" />
+
+            <TextView
+                android:id="@+id/output6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#151610" />
+
+            <TextView
+                android:id="@+id/output7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#151610" />
+            
+            <TextView
+                android:id="@+id/output8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#151610" />
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#151610" />
+
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+</ScrollView>

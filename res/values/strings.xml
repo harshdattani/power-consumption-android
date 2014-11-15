@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EPower</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="appliance_prompt">Choose a Appliance</string>
+ 
+    <string-array name="appliance_arrays">
+        <item>Fan (60-100 WATTS)</item>
+        <item>Television (200 WATTS)</item>
+        <item>Computer (200 WATTS)</item>
+        <item>Geyser (1000-2000 WATTS)</item>
+        <item>A/C 1.5 ton (1000-2000 WATTS)</item>
+        <item>Refrigerator (200 WATTS)</item>
+        <item>Electric IRON (600-1000 WATTS)</item>
+        <item>Washing Machine (200 WATTS)</item>
+    </string-array>
+    <string name="number_prompt">Select Number of Appliance</string>
+ 
+    <string-array name="number_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    
+    <string name="hour_prompt">Select Number of Hour/Day</string>
+ 
+    <string-array name="hour_arrays">
+        <item>0.5</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+         <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="qoutes"> 
+    <item>Keep the future bright, Turn off the light.</item> 
+    <item>Give the earth a hug, pull the plug.</item> 
+    <item>The electric bill won’t give you a fright if you remember to turn off the light</item>
+    <item>Ignorance today brings, A dark tomorrow</item>
+    <item>If we don’t change, Tomorrow we will be literally ‘power’less</item>
+    
+</string-array> 
+ <string-array name="qoutes2"> 
+    <item>Don’t be a thug, pull the plug</item> 
+    <item>Be a bright spark, lights off till its dark!</item> 
+    <item>Turn off the lights, wasting electricity bites!</item>
+    <item>It has to be everybody’s fight to save many dark nights.</item>
+    <item>Do right, save light</item>
+    
+</string-array> 
+    
+</resources>

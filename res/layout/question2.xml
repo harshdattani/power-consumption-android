@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    tools:context="${packageName}.${activityClass}" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:ellipsize="marquee"
+        android:layout_margin="20dp"
+        android:marqueeRepeatLimit ="marquee_forever"
+        android:scrollHorizontally="true"
+        android:focusable="true"
+        android:singleLine="true"
+        android:textSize="20dp" 
+        android:id="@+id/headline"/>
+
+<LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:id="@+id/l1"
+        >
+
+   <TextView 
+       android:text="What color will you paint home to get more brigthness and save power?"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:layout_marginBottom="2dp"
+       android:textSize="20dp"
+       android:textColor="#000034" 
+       />
+   
+    
+      
+      <TextView 
+       android:text=" ► Light Yellow"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:layout_marginLeft="15dp"
+       android:layout_marginTop="8dp"
+       android:textSize="18dp"
+       android:onClick="right"
+       android:id="@+id/right"
+       android:layout_marginBottom="2dp"
+       android:textColor="#000034" 
+       />
+      
+        <TextView 
+       android:text=" ► Navy Blue"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:layout_marginLeft="15dp"
+       android:layout_marginTop="8dp"
+       android:textSize="18dp"
+       android:id="@+id/wrong1"
+       android:layout_marginBottom="2dp"
+       android:textColor="#000034" 
+       />
+      
+      <TextView 
+       android:text=" ► Any color will do"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:layout_marginLeft="15dp"
+       android:layout_marginTop="8dp"
+       android:textSize="18dp"
+       
+       android:id="@+id/wrong2"
+       android:layout_marginBottom="2dp"
+       android:textColor="#000034" 
+       />
+         
+
+        <Button 
+               android:id="@+id/hint"
+               android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="12dp"
+               android:text="Hint!!"
+               android:background="@drawable/button_red"
+               android:onClick="hint"
+               
+               
+           />
+        </LinearLayout>
+
+</RelativeLayout>
